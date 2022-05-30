@@ -13,6 +13,11 @@
 #4096M  /dev/sda3 swap
 #free space /dev/sda4 root
 
+dhcpcd
+
+fdisk /dev/sda
+g
+w
 mkfs.vfat /dev/sdx2  (раздел Efi system) 
 mkfs.btrfs /dev/sdx4 (раздел root)
 mkswap  /dev/sdx3 (раздел swap )
