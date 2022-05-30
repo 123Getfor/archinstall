@@ -8,10 +8,10 @@
 #
 #
 #
-31M  /dev/sda1 Bios boot 
-300M /dev/sda2 Efy system 
-4096M  /dev/sda3 swap
-free space /dev/sda4 root
+#31M  /dev/sda1 Bios boot 
+#300M /dev/sda2 Efy system 
+#4096M  /dev/sda3 swap
+#free space /dev/sda4 root
 
 mkfs.vfat /dev/sdx2  (раздел Efi system) 
 mkfs.btrfs /dev/sdx4 (раздел root)
